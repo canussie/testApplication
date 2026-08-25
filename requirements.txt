@@ -1,0 +1,13 @@
+# Vulnerable Dependencies (Matches public CVE feeds)
+flask==0.12.2          # CVE-2018-1000656 (DOS via JSON), CVE-2019-1010083
+requests==2.20.0       # CVE-2018-18074 (HTTP Basic Auth leak on redirect)
+urllib3==1.24.1        # CVE-2019-11324 (Certificate validation bypass)
+pyyaml==5.1            # CVE-2020-14343 (Arbitrary Code Execution via yaml.load)
+asdsadlk
+aslkdjlsakjd
+lkajsdlksaj
+# Hallucinated / Non-existent Package (Fails public registry checks)
+fake-scanner-test-pkg-999123==1.0.0
+
+# Framework requirement
+fastapi==0.110.0
